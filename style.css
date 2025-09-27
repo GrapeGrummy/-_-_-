@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+
+  /* Background image */
+  background-image: url('ygaanbackgrounf.jpg');
+  background-size: cover;       /* fills the screen */
+  background-repeat: repeat; /* no repeating */
+  background-position: center;  /* centers the image */
+  color: rgb(0, 0, 0);                 /* text color on top of image */
+}
+h1 {
+  color: #050505;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #030303;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* PARAGRAPHS */
+p {
+  font-size: 18px;
+  color: #4d004d; /* slightly darker for readability */
+}
+
+/* VIDEOS */
+video {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 12px;
+  margin: 20px 0;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* IMAGES */
+img {
+  width: 200px;
+  border-radius: 12px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
